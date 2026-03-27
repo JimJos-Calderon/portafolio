@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #faf8f5;
+  --color-ink: #1f1f1f;
+  --color-coral: #e16d67;
+
+  --font-display: "Anton", sans-serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  body {
+    @apply m-0 bg-cream text-ink font-body antialiased;
+  }
+}
