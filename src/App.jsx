@@ -115,16 +115,7 @@ function ProjectCard({ title, description, tag, link }) {
 
 export default function App() {
   return (
-    <main className="relative min-h-screen overflow-hidden text-ink">
-      <div
-        className="fixed inset-0 -z-50 bg-cream"
-        style={{
-          backgroundImage: 'radial-gradient(var(--color-ink) 1px, transparent 1px)',
-          backgroundSize: '22px 22px',
-          opacity: 0.15,
-        }}
-      />
-
+    <main className="relative min-h-screen overflow-hidden bg-cream text-ink">
       <div className="pointer-events-none absolute left-[-2rem] top-20 -z-10 hidden xl:block">
         <svg
           viewBox="0 0 280 520"
